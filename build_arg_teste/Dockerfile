@@ -1,0 +1,5 @@
+FROM debian
+LABEL maintainer 'VINICIUS COELHO BEMFICA'
+
+ARG TESTE=files
+ENV TESTE=${TESTE}
